@@ -8,8 +8,8 @@ public class TaskThird {
         System.out.println("Введите число: ");
         int number = scanner.nextInt();
 
-        if ((number % 2 == 0) & (number % 5 == 0)
-                || (number % 3 == 0) & (number % 7 == 0)) {
+        if ((number % 2 == 0) && (number % 5 == 0)
+                || (number % 3 == 0) && (number % 7 == 0)) {
             System.out.println("Число " + number + " делится.");
         } else {
             System.out.println("Число не делится.");
