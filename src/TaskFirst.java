@@ -9,5 +9,6 @@ public class TaskFirst {
         int number = scanner.nextInt();
         String evenOdd = (number % 2 == 0) ? "Число четное." : "Число нечетное.";
         System.out.println(evenOdd);
+        scanner.close();
     }
 }

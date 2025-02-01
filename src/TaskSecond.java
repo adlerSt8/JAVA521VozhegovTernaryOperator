@@ -13,5 +13,6 @@ public class TaskSecond {
                 :(numberFirst > numberSecond) ? "Наибольшее число " + " - " + numberFirst
                 : "Наибольшее число " + " - " + numberSecond;
         System.out.println(maxNumber);
+        scanner.close();
     }
 }

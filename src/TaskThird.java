@@ -14,5 +14,6 @@ public class TaskThird {
         } else {
             System.out.println("Число не делится.");
         }
+        scanner.close();
     }
 }
