@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class TaskSecond {
-    //TODO: Ппрограмму, которая сравнивает два введенных числа
+    //TODO: Программу, которая сравнивает два введенных числа
     // и выводит наибольшее из них
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
